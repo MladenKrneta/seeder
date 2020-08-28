@@ -2,7 +2,7 @@ const neatCsv = require("neat-csv");
 const fs = require("fs");
 const fetch = require("node-fetch");
 
-const dir = "D:/SandBox/csvs/";
+const dir = "D:/OneDrive/TeamFolders/WhiteMice/03 Data/Data Model Seeder Load/";
 const URL = "https://barbara-white-mice.herokuapp.com/v1/graphql";
 
 function readFiles(dirname, onFileContent, onError) {
@@ -32,7 +32,7 @@ readFiles(
         return;
       }
 
-      const table = filename.slice(0, -4); // instead of 0 put number of starting strings
+      const table = filename.slice(4, -4); // instead of 0 put number of starting strings
       const products = await neatCsv(data);
       const keys = Object.keys(products[0]);
 
@@ -40,11 +40,15 @@ readFiles(
       products.forEach((element) => {
         items = items + "{";
         keys.forEach((key) => {
-          if (parseFloat(element[key])) {
-            items = items + key + " : " + element[key] + ",";
-          } else {
-            items = items + key + ' : "' + element[key] + '",';
+          if(element[key]){
+            if (parseFloat(element[key])) {
+
+              items = items + key + " : " + element[key] + ",";
+            } else {
+              items = items + key + ' : "' + element[key] + '",';
+            }
           }
+
         });
         items = items.slice(0, -1);
         items = items + "}";
