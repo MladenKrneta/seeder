@@ -1,0 +1,9 @@
+id,image_filename,volume,partial_possible,master_id,uom_id,packaging_uom_id,partial_uom_id,inventory_uom_id
+1,4.jpg,0.25,FALSE,1,1,6,,6
+2,6.jpg,0.25,FALSE,2,1,6,,6
+3,7.jpg,0.25,FALSE,3,1,6,,6
+4,8.jpg,0.25,FALSE,4,1,6,,6
+5,12.jpg,0.25,FALSE,5,1,6,,6
+6,13.jpg,0.25,FALSE,6,1,6,,6
+7,20.jpg,0.25,FALSE,7,1,6,,6
+8,21.jpg,1,TRUE,8,1,6,4,1

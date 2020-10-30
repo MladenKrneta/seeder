@@ -1,0 +1,11 @@
+id,name,image_filename,location_type
+1,Bar,bar_24px.svg,PHYSICAL_LOCATION
+2,Room,room_24px.svg,PHYSICAL_LOCATION
+3,Storage,storage_24px.svg,PHYSICAL_LOCATION
+4,Garage,garage_24px.svg,PHYSICAL_LOCATION
+5,Cellar,cellar_24px.svg,PHYSICAL_LOCATION
+6,Cage,cage_24px.svg,PHYSICAL_LOCATION
+7,Fridge,fridge_24px.svg,STORAGE_UNIT
+8,Deep  freezer,freezer_24px.svg,STORAGE_UNIT
+9,Retro counter,retro_counter_24px.svg,STORAGE_UNIT
+10,Rack,rack_24px.svg,STORAGE_UNIT

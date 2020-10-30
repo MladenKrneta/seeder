@@ -1,0 +1,13 @@
+id,name,name_plural,name_short,count_step,image_filename,type
+1,litre,litres,l,1,,LITRE
+2,mililitre,mililitres,ml,10,,MILILITRE
+3,kilogram,kilograms,kg,1,,KILOGRAM
+4,gram,grams,g,10,scale_24px.svg,GRAM
+5,can,cans,can,1,,CAN
+6,bottle,bottles,bot,1,bottle_24px.svg,BOTTLE
+7,bag,bags,bag,1,,BAG
+8,sachet,sachets,sac,1,,SACHET
+9,keg,kegs,keg,1,,KEG
+10,box,boxes,box,1,box_24px.svg,BOX
+11,case,cases,case,1,,CASE
+12,bundle,bundles,bdl,1,,BUNDLE

@@ -1,0 +1,11 @@
+id,name,image_filename,parent_id,compartment_id,type
+0,Storage Locations,,,,PHYSICAL_LOCATION
+1,First room,room_24px.svg,0,,PHYSICAL_LOCATION
+2,Child room,room_24px.svg,1,,PHYSICAL_LOCATION
+3,Test Room,room_24px.svg,0,,PHYSICAL_LOCATION
+4,Bar,bar_24px.svg,0,,PHYSICAL_LOCATION
+5,Fridge,fridge_24px.svg,4,,STORAGE_UNIT
+6,Shelf 1,,5,,COMPARTMENT
+7,Shelf 2,,5,,COMPARTMENT
+8,Shelf 3,,5,,COMPARTMENT
+9,Shelf 4,,5,,COMPARTMENT

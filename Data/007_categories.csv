@@ -1,0 +1,6 @@
+id,name,name_plural,type
+1,All,All,
+2,spirit,spirits,SPIRIT
+3,beer,beers,BEER
+4,soft drink,soft drinks,SOFT_DRINK
+5,liquor,liquors,LIQUOR
